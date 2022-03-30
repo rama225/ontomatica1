@@ -1,0 +1,66 @@
+code,
+kbd,
+pre{
+  color: #657b83; /* base00 */
+  /* add Recursive to the font stack */
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+
+  /* To handle variable font */
+  font-weight: 400;
+  font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "ital" 0.5;
+
+  line-height: 1.5;
+
+  /* Change tab size to 2*/
+  tab-size: 2;
+
+  hyphens: none;
+}
+
+.md-typeset code {
+    padding: 0.2em 0.4em!important;
+    border-radius: 0.3rem!important;
+}
+
+.md-typeset pre {
+    border-radius: .3rem!important;
+    padding: 10px!important;
+    overflow-x: auto!important;
+    margin: auto!important;
+}
+
+.md-tabs {
+    display: none!important;
+}
+.md-header-nav__button.md-logo{
+    margin: 0.1rem 0.2rem!important;
+    background-color: #fff!important;
+}
+html .md-nav--primary .md-nav__title--site .md-nav__button {
+    width: 8.5rem !important;
+    background-color: #fff!important;
+}
+.md-header, .md-tabs{
+    background: #1F64FF !important;
+}
+@media only screen and (max-width: 76.1875em){
+    nav > label.md-nav__title.md-nav__title--site{
+        background: #1F64FF !important;
+    }
+    html .md-nav--primary .md-nav__title--site .md-nav__button {
+        display: block;
+        position: absolute;
+        top: 0.2rem;
+        left: 0.6rem;
+        width: 10.5rem !important;
+        height: 3.2rem;
+        font-size: 2.4rem;
+        padding-top: 0!important;
+        background-color: #fff !important;
+    }
+}

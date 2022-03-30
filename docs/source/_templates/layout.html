@@ -1,0 +1,24 @@
+{# Import the theme's layout. #}
+{% extends '!layout.html' %}
+
+ {% block font %}
+    <!-- <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet"> -->
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400&display=swap');
+      body,
+      input {
+        font-family: 'Recursive', sans-serif !important;
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: 'Recursive', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+        background-color: #3f51b721!important;
+      }
+    </style>
+
+    {{ super() }}
+  {% endblock %}
